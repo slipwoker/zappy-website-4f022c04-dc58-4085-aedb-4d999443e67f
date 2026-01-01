@@ -1758,3 +1758,1266 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+/* === AI CUSTOMIZATION ADDITIONS === */
+/* 1. HERO SECTION - Enhanced text readability */
+.hero .hero-overlay {
+  background: rgba(0,0,0,0.6) !important;
+}
+
+.hero h1,
+.hero h3 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7) !important;
+}
+
+.hero-content {
+  background: rgba(255,255,255,0.1) !important;
+  backdrop-filter: blur(10px) !important;
+  padding: 30px !important;
+  border-radius: 15px !important;
+}
+
+/* 2. SOLUTION SECTION - Clean text areas with solid backgrounds */
+.solution-section {
+  background: #fef9f5 !important;
+}
+
+.solution-text {
+  background: #ffffff !important;
+  padding: 40px !important;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06) !important;
+}
+
+.solution-content {
+  gap: 4rem !important;
+  margin-top: 2rem !important;
+}
+
+.solution-image {
+  padding: 20px !important;
+}
+
+/* 3. PROBLEM CARDS - Solid white with better separation */
+.problem-card {
+  background: #ffffff !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+  padding: 30px !important;
+}
+
+.problem-section {
+  background: #fef9f5 !important;
+}
+
+/* 4. SERVICE CARDS - Text separated from images */
+.service-card {
+  background: #ffffff !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+}
+
+.service-card h3,
+.service-card p {
+  background: #ffffff !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.service-card h3 {
+  padding: 25px 25px 10px !important;
+  margin: 0 !important;
+}
+
+.service-card p {
+  padding: 10px 25px 25px !important;
+  margin: 0 !important;
+}
+
+.services-preview {
+  background: #fef9f5 !important;
+}
+
+/* 5. TESTIMONIALS - Solid backgrounds */
+.testimonial-card {
+  background: #ffffff !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+}
+
+.testimonials-section {
+  background: #fef5f8 !important;
+}
+
+/* 6. CTA SECTION - Strong overlay for readability */
+.cta-section {
+  background: linear-gradient(135deg, rgba(232,140,165,0.95) 0%, rgba(141,201,195,0.95) 100%) !important;
+  position: relative !important;
+}
+
+.cta-content {
+  background: rgba(255,255,255,0.15) !important;
+  backdrop-filter: blur(8px) !important;
+  padding: 50px !important;
+  border-radius: 15px !important;
+}
+
+.cta-section h2,
+.cta-section p {
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.3) !important;
+}
+
+/* 7. GENERAL IMPROVEMENTS - Enhanced readability throughout */
+body {
+  line-height: 1.7 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4 !important;
+}
+
+p {
+  line-height: 1.8 !important;
+}
+
+/* Service detail sections - clean text areas */
+.service-detail {
+  background: #ffffff !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+}
+
+.service-detail-text {
+  background: #fef9f5 !important;
+  padding: 35px !important;
+  border-radius: 12px !important;
+}
+
+.services-detailed {
+  background: #ffffff !important;
+}
+
+/* Why cards - solid backgrounds */
+.why-card {
+  background: #ffffff !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+}
+
+.why-choose-section {
+  background: #fef5f8 !important;
+}
+
+/* Value cards - clean separation */
+.value-card {
+  background: #ffffff !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+}
+
+.values-section {
+  background: #fef9f5 !important;
+}
+
+/* Process steps - solid backgrounds */
+.process-step {
+  background: #ffffff !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+}
+
+.process-section {
+  background: #fef9f5 !important;
+}
+
+/* FAQ items - clean white cards */
+.faq-item {
+  background: #ffffff !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+}
+
+.faq-section {
+  background: #fef9f5 !important;
+}
+
+/* Contact form - solid backgrounds */
+.contact-form-container,
+.contact-info-container {
+  background: #ffffff !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+}
+
+.contact-section {
+  background: #fef9f5 !important;
+}
+
+/* Story and mission sections - alternating backgrounds */
+.story-section,
+.credentials-section,
+.personal-section,
+.contact-intro,
+.services-intro {
+  background: #ffffff !important;
+}
+
+.mission-section {
+  background: #fef9f5 !important;
+}
+
+/* Page headers - ensure text readability */
+.page-header {
+  background: linear-gradient(135deg, rgba(244,165,185,0.95) 0%, rgba(141,201,195,0.95) 100%) !important;
+}
+
+.page-header h1,
+.page-header h3 {
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.3) !important;
+}
+
+/* Service ideal boxes - subtle background */
+.service-ideal {
+  background: #fef9f5 !important;
+  border-left: 4px solid var(--primary-color) !important;
+}
+
+[dir="rtl"] .service-ideal {
+  border-left: none !important;
+  border-right: 4px solid var(--primary-color) !important;
+}
+
+/* Contact hours box */
+.contact-hours {
+  background: #fef9f5 !important;
+  border: 1px solid rgba(244,165,185,0.2) !important;
+}
+
+/* Ensure all text has proper contrast */
+section {
+  color: var(--text-color) !important;
+}
+
+/* Add breathing room to all sections */
+section {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+  
+  .hero-content {
+    padding: 25px !important;
+  }
+  
+  .cta-content {
+    padding: 30px !important;
+  }
+  
+  .solution-text,
+  .service-detail-text {
+    padding: 25px !important;
+  }
+}
+
+/* === AI CUSTOMIZATION ADDITIONS === */
+/* ===== RESPONSIVE LAYOUT FIXES ===== */
+
+/* 1. PREVENT HORIZONTAL SCROLL */
+body {
+  overflow-x: hidden !important;
+}
+
+/* 2. HERO SECTION FIXES */
+.hero h1 {
+  text-align: center !important;
+  font-size: clamp(28px, 5vw, 48px) !important;
+  padding: 20px !important;
+  position: relative !important;
+  z-index: 10 !important;
+  word-wrap: break-word !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+}
+
+.hero h3 {
+  text-align: center !important;
+  margin-top: 20px !important;
+  word-wrap: break-word !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.hero-content {
+  padding: 40px !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+.hero-overlay {
+  z-index: 2 !important;
+}
+
+.hero-img {
+  z-index: 1 !important;
+}
+
+/* 3. ALL TEXT ELEMENTS - GLOBAL FIXES */
+h1, h2, h3, h4, h5, h6, p, li, span, a {
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  max-width: 100% !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.6 !important;
+}
+
+p, li {
+  line-height: 1.6 !important;
+}
+
+/* 4. CONTAINER PADDING */
+.container {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+/* 5. SECTION SPACING */
+section {
+  margin-bottom: 30px !important;
+  position: relative !important;
+  clear: both !important;
+}
+
+/* 6. CENTER ALL HEADINGS */
+section h2 {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 7. CENTER CTA BUTTONS */
+.btn-primary,
+.btn-secondary {
+  display: inline-flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.cta-center {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.cta-section .cta-content {
+  text-align: center !important;
+}
+
+.zappy-inserted-element {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* 8. GRID SPACING */
+.problem-grid,
+.services-grid,
+.testimonials-grid,
+.process-grid,
+.why-grid,
+.values-grid,
+.faq-grid {
+  gap: 20px !important;
+}
+
+/* 9. MOBILE SPECIFIC FIXES (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Container padding */
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  
+  /* Section padding */
+  section {
+    padding: 30px 15px !important;
+  }
+  
+  .hero {
+    padding: 30px 15px !important;
+  }
+  
+  .page-header {
+    padding: 30px 15px !important;
+  }
+  
+  /* Hero content */
+  .hero-content {
+    padding: 20px !important;
+  }
+  
+  /* Font sizes */
+  h1 {
+    font-size: 32px !important;
+  }
+  
+  h2 {
+    font-size: 28px !important;
+  }
+  
+  h3 {
+    font-size: 22px !important;
+  }
+  
+  p {
+    font-size: 16px !important;
+  }
+  
+  /* Center all text on mobile */
+  .hero h1,
+  .hero h3,
+  .hero p,
+  section h2,
+  section h3,
+  section p,
+  .problem-card,
+  .service-card,
+  .testimonial-card,
+  .process-step,
+  .value-card,
+  .why-card,
+  .faq-item {
+    text-align: center !important;
+  }
+  
+  /* Solution section mobile */
+  .solution-text {
+    text-align: center !important;
+    padding: 25px !important;
+  }
+  
+  .solution-text h2,
+  .solution-text p {
+    text-align: center !important;
+  }
+  
+  /* Service detail mobile */
+  .service-detail-text {
+    text-align: center !important;
+    padding: 25px !important;
+  }
+  
+  .service-detail-text h2,
+  .service-detail-text h3,
+  .service-detail-text p {
+    text-align: center !important;
+  }
+  
+  /* Contact sections mobile */
+  .intro-content,
+  .story-content,
+  .mission-content,
+  .credentials-content {
+    text-align: center !important;
+    padding: 20px !important;
+  }
+  
+  /* CTA section mobile */
+  .cta-content {
+    padding: 30px 20px !important;
+    text-align: center !important;
+  }
+  
+  /* Grid gaps mobile */
+  .problem-grid,
+  .services-grid,
+  .testimonials-grid,
+  .process-grid,
+  .why-grid,
+  .values-grid,
+  .faq-grid {
+    gap: 20px !important;
+  }
+  
+  /* Cards padding mobile */
+  .problem-card,
+  .service-card,
+  .testimonial-card,
+  .process-step,
+  .value-card,
+  .why-card,
+  .faq-item {
+    padding: 25px 20px !important;
+  }
+  
+  /* Buttons mobile */
+  .btn-primary,
+  .btn-secondary {
+    width: auto !important;
+    max-width: 100% !important;
+    padding: 14px 24px !important;
+  }
+}
+
+/* 10. TABLET SPECIFIC (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  
+  section {
+    padding: 40px 30px !important;
+  }
+  
+  .hero-content {
+    padding: 30px !important;
+  }
+}
+
+/* 11. RTL COMPLIANCE - CENTER ALIGNMENT */
+[dir="rtl"] .hero h1,
+[dir="rtl"] .hero h3,
+[dir="rtl"] section h2,
+[dir="rtl"] .cta-section {
+  text-align: center !important;
+}
+
+/* 12. ENSURE NO OVERLAP */
+.hero-content > * {
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+.solution-content,
+.service-detail-content,
+.contact-wrapper {
+  position: relative !important;
+}
+
+/* 13. IMAGE CONTAINERS */
+.solution-image,
+.service-detail-image {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* 14. FORM ELEMENTS RESPONSIVE */
+@media (max-width: 768px) {
+  .form-group input,
+  .form-group textarea {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .contact-form-container,
+  .contact-info-container {
+    padding: 25px 20px !important;
+  }
+}
+
+/* 15. SERVICE FEATURES LIST */
+.service-features {
+  text-align: right !important;
+}
+
+[dir="ltr"] .service-features {
+  text-align: left !important;
+}
+
+@media (max-width: 768px) {
+  .service-features {
+    text-align: center !important;
+  }
+  
+  .service-features li {
+    justify-content: center !important;
+  }
+}
+
+/* === AI CUSTOMIZATION ADDITIONS === */
+/* ===== COMPREHENSIVE TEXT OVERLAP AND CLIPPING FIXES ===== */
+
+/* 1. GLOBAL TEXT SPACING AND LINE HEIGHT */
+* {
+  box-sizing: border-box !important;
+}
+
+body {
+  overflow-x: hidden !important;
+  line-height: 1.7 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.6 !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  max-width: 100% !important;
+}
+
+p, li, span, a {
+  line-height: 1.8 !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  max-width: 100% !important;
+}
+
+/* 2. CONTAINER PADDING TO PREVENT SIDE CLIPPING */
+.container {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  max-width: 100% !important;
+  overflow: hidden !important;
+}
+
+/* 3. SECTION SPACING TO PREVENT OVERLAP */
+section {
+  margin-bottom: 60px !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  overflow: hidden !important;
+  clear: both !important;
+}
+
+section:last-of-type {
+  margin-bottom: 0 !important;
+}
+
+/* 4. HERO SECTION SPECIFIC FIXES */
+.hero {
+  min-height: 600px !important;
+  padding: 60px 40px !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.hero-content {
+  padding: 50px 40px !important;
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+.hero h1 {
+  font-size: clamp(32px, 5vw, 48px) !important;
+  line-height: 1.3 !important;
+  margin-bottom: 1.5rem !important;
+  margin-top: 0 !important;
+  padding: 0 20px !important;
+  text-align: center !important;
+  word-wrap: break-word !important;
+}
+
+.hero h3 {
+  font-size: clamp(18px, 3vw, 22px) !important;
+  line-height: 1.6 !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 2rem !important;
+  padding: 0 20px !important;
+  text-align: center !important;
+  word-wrap: break-word !important;
+}
+
+.hero .btn-primary {
+  margin-top: 2rem !important;
+}
+
+/* 5. PAGE HEADER SPACING */
+.page-header {
+  padding: 50px 40px !important;
+  margin-bottom: 0 !important;
+}
+
+.page-header h1 {
+  line-height: 1.3 !important;
+  margin-bottom: 1rem !important;
+  padding: 0 20px !important;
+}
+
+.page-header h3 {
+  line-height: 1.6 !important;
+  margin-top: 1rem !important;
+  padding: 0 20px !important;
+}
+
+/* 6. CARD INTERNAL PADDING */
+.problem-card,
+.service-card,
+.testimonial-card,
+.process-step,
+.value-card,
+.why-card,
+.faq-item {
+  padding: 30px 25px !important;
+  margin-bottom: 20px !important;
+}
+
+.problem-card h3,
+.service-card h3,
+.testimonial-card h3,
+.process-step h3,
+.value-card h3,
+.why-card h3,
+.faq-item h3 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 1rem !important;
+  line-height: 1.5 !important;
+  padding: 0 !important;
+}
+
+.problem-card p,
+.service-card p,
+.testimonial-card p,
+.process-step p,
+.value-card p,
+.why-card p,
+.faq-item p {
+  margin-bottom: 0.5rem !important;
+  line-height: 1.8 !important;
+  padding: 0 !important;
+}
+
+/* 7. GRID SPACING */
+.problem-grid,
+.services-grid,
+.testimonials-grid,
+.process-grid,
+.why-grid,
+.values-grid,
+.faq-grid {
+  gap: 30px !important;
+  margin-top: 30px !important;
+}
+
+/* 8. SOLUTION SECTION SPACING */
+.solution-section {
+  padding: 60px 40px !important;
+}
+
+.solution-content {
+  gap: 40px !important;
+  margin-top: 30px !important;
+}
+
+.solution-text {
+  padding: 40px 30px !important;
+}
+
+.solution-text h2 {
+  margin-bottom: 1.5rem !important;
+  line-height: 1.4 !important;
+  padding: 0 !important;
+}
+
+.solution-text p {
+  margin-bottom: 1.5rem !important;
+  line-height: 1.8 !important;
+}
+
+.solution-image {
+  padding: 20px !important;
+}
+
+/* 9. SERVICE DETAIL SPACING */
+.service-detail {
+  margin-bottom: 50px !important;
+  padding: 50px 40px !important;
+}
+
+.service-detail-content {
+  gap: 40px !important;
+}
+
+.service-detail-text {
+  padding: 30px 25px !important;
+}
+
+.service-detail-text h3 {
+  margin-bottom: 1.5rem !important;
+  line-height: 1.5 !important;
+  padding: 0 !important;
+}
+
+.service-detail-text p {
+  margin-bottom: 1.5rem !important;
+  line-height: 1.8 !important;
+}
+
+.service-features {
+  margin: 2rem 0 !important;
+  padding: 0 !important;
+}
+
+.service-features li {
+  padding: 12px 0 !important;
+  line-height: 1.7 !important;
+  gap: 12px !important;
+}
+
+.service-ideal {
+  padding: 25px !important;
+  margin-top: 2rem !important;
+  line-height: 1.8 !important;
+}
+
+/* 10. INTRO CONTENT SECTIONS */
+.intro-content,
+.story-content,
+.mission-content,
+.credentials-content {
+  padding: 30px 25px !important;
+  max-width: 900px !important;
+}
+
+.intro-content p,
+.story-content p,
+.mission-content p,
+.credentials-content p {
+  margin-bottom: 1.5rem !important;
+  line-height: 1.8 !important;
+}
+
+/* 11. CTA SECTION SPACING */
+.cta-section {
+  padding: 60px 40px !important;
+  margin-bottom: 0 !important;
+}
+
+.cta-content {
+  padding: 50px 40px !important;
+  max-width: 900px !important;
+}
+
+.cta-content h2 {
+  margin-bottom: 1.5rem !important;
+  line-height: 1.4 !important;
+  padding: 0 20px !important;
+}
+
+.cta-content p {
+  margin-bottom: 2rem !important;
+  line-height: 1.8 !important;
+  padding: 0 20px !important;
+}
+
+/* 12. CONTACT SECTION SPACING */
+.contact-section {
+  padding: 60px 40px !important;
+}
+
+.contact-wrapper {
+  gap: 40px !important;
+}
+
+.contact-form-container,
+.contact-info-container {
+  padding: 40px 35px !important;
+}
+
+.contact-form-container h2,
+.contact-info-container h2 {
+  margin-bottom: 1.5rem !important;
+  line-height: 1.4 !important;
+  padding: 0 !important;
+}
+
+.form-group {
+  margin-bottom: 2rem !important;
+}
+
+.form-group label {
+  margin-bottom: 0.75rem !important;
+  line-height: 1.5 !important;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 14px 16px !important;
+  line-height: 1.6 !important;
+}
+
+.contact-item {
+  margin-bottom: 2.5rem !important;
+  gap: 18px !important;
+}
+
+.contact-item-text h3 {
+  margin-bottom: 0.75rem !important;
+  line-height: 1.5 !important;
+  padding: 0 !important;
+}
+
+.contact-item-text p {
+  margin-bottom: 0.5rem !important;
+  line-height: 1.6 !important;
+}
+
+.contact-hours {
+  padding: 25px !important;
+  margin-top: 2.5rem !important;
+}
+
+.contact-hours h3 {
+  margin-bottom: 1rem !important;
+  padding: 0 !important;
+}
+
+.contact-hours p {
+  margin-bottom: 0.75rem !important;
+  line-height: 1.7 !important;
+}
+
+/* 13. NAVBAR TO CONTENT SPACING */
+body > section:first-of-type:not(.hero),
+body > main > section:first-of-type {
+  margin-top: 20px !important;
+}
+
+/* 14. FOOTER SPACING */
+.legal-footer {
+  padding: 30px 0 !important;
+  margin-top: 60px !important;
+}
+
+.legal-footer .container {
+  padding: 0 40px !important;
+}
+
+.legal-footer .footer-main {
+  gap: 25px !important;
+  margin-bottom: 20px !important;
+}
+
+.legal-footer .all-rights-reserved p {
+  line-height: 1.6 !important;
+  margin-bottom: 0 !important;
+}
+
+.legal-footer .footer-social {
+  gap: 20px !important;
+}
+
+.legal-footer .footer-legal {
+  gap: 15px !important;
+}
+
+.legal-footer .footer-legal a {
+  padding: 5px 10px !important;
+  line-height: 1.5 !important;
+}
+
+.legal-footer .zappy-attribution {
+  padding-top: 20px !important;
+  margin-top: 20px !important;
+}
+
+.legal-footer .zappy-attribution p {
+  line-height: 1.6 !important;
+}
+
+/* 15. Z-INDEX MANAGEMENT */
+.hero-img {
+  z-index: 1 !important;
+}
+
+.hero-overlay {
+  z-index: 2 !important;
+}
+
+.hero-content {
+  z-index: 10 !important;
+  position: relative !important;
+}
+
+.navbar {
+  z-index: 1000 !important;
+}
+
+.mobile-toggle,
+.phone-header-btn {
+  z-index: 1001 !important;
+}
+
+.nav-menu {
+  z-index: 999 !important;
+}
+
+/* 16. MOBILE RESPONSIVE FIXES (max-width: 768px) */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  
+  section {
+    padding: 30px 20px !important;
+    margin-bottom: 40px !important;
+  }
+  
+  .hero {
+    padding: 40px 20px !important;
+    min-height: 500px !important;
+  }
+  
+  .hero-content {
+    padding: 30px 20px !important;
+  }
+  
+  .hero h1 {
+    font-size: 28px !important;
+    margin-bottom: 1rem !important;
+    padding: 0 10px !important;
+  }
+  
+  .hero h3 {
+    font-size: 18px !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1.5rem !important;
+    padding: 0 10px !important;
+  }
+  
+  .page-header {
+    padding: 40px 20px !important;
+  }
+  
+  .page-header h1 {
+    font-size: 28px !important;
+    padding: 0 10px !important;
+  }
+  
+  .page-header h3 {
+    font-size: 18px !important;
+    padding: 0 10px !important;
+  }
+  
+  h1 {
+    font-size: 28px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  
+  h2 {
+    font-size: 24px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  
+  h3 {
+    font-size: 20px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  
+  p {
+    font-size: 16px !important;
+  }
+  
+  .problem-card,
+  .service-card,
+  .testimonial-card,
+  .process-step,
+  .value-card,
+  .why-card,
+  .faq-item {
+    padding: 25px 20px !important;
+  }
+  
+  .solution-section {
+    padding: 40px 20px !important;
+  }
+  
+  .solution-content {
+    gap: 30px !important;
+  }
+  
+  .solution-text {
+    padding: 30px 20px !important;
+  }
+  
+  .service-detail {
+    padding: 30px 20px !important;
+    margin-bottom: 30px !important;
+  }
+  
+  .service-detail-text {
+    padding: 25px 20px !important;
+  }
+  
+  .intro-content,
+  .story-content,
+  .mission-content,
+  .credentials-content {
+    padding: 25px 20px !important;
+  }
+  
+  .cta-section {
+    padding: 40px 20px !important;
+  }
+  
+  .cta-content {
+    padding: 30px 20px !important;
+  }
+  
+  .cta-content h2 {
+    padding: 0 10px !important;
+  }
+  
+  .cta-content p {
+    padding: 0 10px !important;
+  }
+  
+  .contact-section {
+    padding: 40px 20px !important;
+  }
+  
+  .contact-form-container,
+  .contact-info-container {
+    padding: 30px 20px !important;
+  }
+  
+  .contact-hours {
+    padding: 20px !important;
+  }
+  
+  .legal-footer .container {
+    padding: 0 20px !important;
+  }
+  
+  .legal-footer {
+    padding: 25px 0 !important;
+    margin-top: 40px !important;
+  }
+  
+  .problem-grid,
+  .services-grid,
+  .testimonials-grid,
+  .process-grid,
+  .why-grid,
+  .values-grid,
+  .faq-grid {
+    gap: 20px !important;
+  }
+}
+
+/* 17. TABLET RESPONSIVE (max-width: 1024px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .container {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  
+  section {
+    padding: 40px 30px !important;
+  }
+  
+  .hero {
+    padding: 50px 30px !important;
+  }
+  
+  .hero-content {
+    padding: 40px 30px !important;
+  }
+  
+  h1 {
+    font-size: 36px !important;
+  }
+  
+  h2 {
+    font-size: 28px !important;
+  }
+  
+  h3 {
+    font-size: 22px !important;
+  }
+}
+
+/* 18. PREVENT TEXT OVERFLOW IN ALL CONTAINERS */
+.hero-content > *,
+.solution-text > *,
+.service-detail-text > *,
+.intro-content > *,
+.story-content > *,
+.mission-content > *,
+.credentials-content > *,
+.cta-content > *,
+.contact-form-container > *,
+.contact-info-container > * {
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+/* 19. BUTTON SPACING */
+.btn-primary,
+.btn-secondary {
+  margin: 10px 5px !important;
+  padding: 14px 32px !important;
+  line-height: 1.5 !important;
+}
+
+.cta-buttons {
+  gap: 15px !important;
+  margin-top: 2rem !important;
+}
+
+/* 20. LIST SPACING */
+ul, ol {
+  padding-left: 30px !important;
+  margin-bottom: 1.5rem !important;
+}
+
+[dir="rtl"] ul,
+[dir="rtl"] ol {
+  padding-left: 0 !important;
+  padding-right: 30px !important;
+}
+
+li {
+  margin-bottom: 0.75rem !important;
+  line-height: 1.8 !important;
+}
+
+/* 21. ENSURE NO HORIZONTAL SCROLL */
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* 22. IMAGE CONTAINERS */
+.solution-image,
+.service-detail-image,
+.why-img,
+.service-img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* 23. PROCESS NUMBER SPACING */
+.process-number {
+  margin: 0 auto 1.5rem !important;
+}
+
+/* 24. VALUE ICON SPACING */
+.value-icon,
+.problem-icon {
+  margin-bottom: 1.5rem !important;
+}
+
+/* 25. TESTIMONIAL STARS SPACING */
+.testimonial-stars {
+  margin-bottom: 1.5rem !important;
+}
+
+.testimonial-text {
+  margin-bottom: 1.5rem !important;
+  line-height: 1.8 !important;
+}
+
+.testimonial-author {
+  line-height: 1.6 !important;
+}
