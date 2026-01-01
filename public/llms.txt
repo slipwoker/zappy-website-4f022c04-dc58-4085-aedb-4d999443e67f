@@ -1,47 +1,57 @@
-# Business — Generative Engine Optimization Map
+# שרה מזוז - יועצת שינה — Generative Engine Optimization Map
+
+> A יעוץ הורות ושינה business.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://sarah-mazuz-sleep-consultant.zappy5.app
 גלי יועצת שינה לתינוקות מקצועית שמביאה תוצאות אמיתיות. צרי קשר היום לשיחת היכרות חינם!
 
 ### השירותים שלי
-https://example.com/services
+https://sarah-mazuz-sleep-consultant.zappy5.app/services
 גלי את מגוון השירותים המותאמים אישית שלי. תינוק לא ישן בלילה פתרונות שעובדים באמת. ליווי צמוד עד התוצאות!
 
 ### אודות
-https://example.com/about
+https://sarah-mazuz-sleep-consultant.zappy5.app/about
 הכירי את שרה מזוז, יועצת שינה לתינוקות מנוסה. מהורה מותשת ליועצת שעוזרת למשפחות למצוא שלום ושינה רגועה.
 
 ### צרי קשר
-https://example.com/contact
+https://sarah-mazuz-sleep-consultant.zappy5.app/contact
 קבעי שיחת היכרות חינם עם שרה מזוז, יועצת שינה לתינוקות מקצועית. בואי נדבר על איך אני יכולה לעזור לך!
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://sarah-mazuz-sleep-consultant.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://sarah-mazuz-sleep-consultant.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://sarah-mazuz-sleep-consultant.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About שרה מזוז - יועצת שינה
+שרה מזוז - יועצת שינה is a business in the יעוץ הורות ושינה industry.
+
+## Target Audience
+הורים מותשים וחסרי תקווה עם ילדים בגילאי 0-5 המתמודדים עם התעוררויות בלילה והרדמות ארוכות
+
+## Industry
+יעוץ הורות ושינה
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://sarah-mazuz-sleep-consultant.zappy5.app/sitemap.xml
+- **Robots.txt**: https://sarah-mazuz-sleep-consultant.zappy5.app/robots.txt
